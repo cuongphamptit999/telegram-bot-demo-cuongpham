@@ -21,11 +21,17 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/com.github.pengrad/java-telegram-bot-api -->
+        <!-- https://mvnrepository.com/artifact/org.telegram/telegrambots -->
         <dependency>
-            <groupId>com.github.pengrad</groupId>
-            <artifactId>java-telegram-bot-api</artifactId>
+            <groupId>org.telegram</groupId>
+            <artifactId>telegrambots</artifactId>
             <version>6.1.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.vdurmont/emoji-java -->
+        <dependency>
+            <groupId>com.vdurmont</groupId>
+            <artifactId>emoji-java</artifactId>
+            <version>5.1.1</version>
         </dependency>
 
         <dependency>
