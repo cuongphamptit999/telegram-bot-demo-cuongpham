@@ -1,7 +1,5 @@
 package com.vccorp;
 
-import com.vccorp.translate.TranslationApi;
-import com.vccorp.weather.DmiApi;
 import org.springframework.context.annotation.Bean;
 
 import com.pengrad.telegrambot.TelegramBot;
